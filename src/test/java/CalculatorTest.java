@@ -1,13 +1,11 @@
 import org.junit.jupiter.api.Test;
 
-import java.math.BigDecimal;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
 
     @Test
-    public void shouldReturn15WhenAdd5And10(){
+    void shouldReturn15WhenAdd5And10(){
         // given
         Calculator calculator = new Calculator();
         // when
@@ -17,12 +15,12 @@ class CalculatorTest {
     }
 
     @Test
-    public void shouldThrowExceptionForInvalidNumber(){
+    void shouldThrowExceptionForInvalidNumber(){
         // given
         Calculator calculator = new Calculator();
         // when
         assertThrows(NumberFormatException.class,
-                () -> calculator.add("12test", "13"));
+                () -> Calculator.add("12test", "13"));
         // then
 
     }

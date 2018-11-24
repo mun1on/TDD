@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d26f8a-7f45-4a5c-b777-3ca678aa4d65" name="Default" comment="" />
+    <list default="true" id="a0d26f8a-7f45-4a5c-b777-3ca678aa4d65" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ValidatorTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,24 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-              <folding>
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="289">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,27 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Validator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Validator.java">
+      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-              <folding>
-                <element signature="e#58#59#0" expanded="true" />
-                <element signature="e#86#87#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ValidatorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ValidatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -94,6 +69,8 @@
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Validator.java" />
         <option value="$PROJECT_DIR$/src/test/java/ValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -114,9 +91,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -177,6 +154,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
@@ -202,9 +180,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ValidatorTest.shouldReturnTrueWhen18">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.shouldReturnCorrectFizzBuzz">
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="TDD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -228,13 +206,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.shouldReturn15WhenAdd5And10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.shouldThrowExceptionForInvalidNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldReturn15WhenAdd5And10" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionForInvalidNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectFizzBuzz" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -301,17 +296,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Calculator" />
-      <item itemvalue="JUnit.CalculatorTest.shouldReturn15WhenAdd5And10" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.ValidatorTest.shouldReturnTrueWhen18" />
+      <item itemvalue="JUnit.FizzBuzzTest.shouldReturnCorrectFizzBuzz" />
+      <item itemvalue="Application.FizzBuzz" />
+      <item itemvalue="JUnit.CalculatorTest.shouldThrowExceptionForInvalidNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest.shouldReturnCorrectFizzBuzz" />
         <item itemvalue="JUnit.ValidatorTest.shouldReturnTrueWhen18" />
+        <item itemvalue="JUnit.CalculatorTest.shouldThrowExceptionForInvalidNumber" />
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.shouldReturn15WhenAdd5And10" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -325,73 +322,74 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543049493938</updated>
-      <workItem from="1543049498390" duration="4836000" />
+      <workItem from="1543049498390" duration="10581000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_shouldReturn15WhenAdd5And10 - 2018.11.24 at 10h 35m 18s.xml">
-      <configuration name="CalculatorTest.shouldReturn15WhenAdd5And10" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 47m 38s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_shouldReturn15WhenAdd5And10 - 2018.11.24 at 10h 38m 33s.xml">
-      <configuration name="CalculatorTest.shouldReturn15WhenAdd5And10" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 47m 46s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.11.24 at 10h 46m 58s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 48m 25s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.11.24 at 10h 47m 09s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 52m 42s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_shouldReturn15WhenAdd5And10 - 2018.11.24 at 10h 47m 53s.xml">
-      <configuration name="CalculatorTest.shouldReturn15WhenAdd5And10" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 57m 55s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_shouldReturn15WhenAdd5And10 - 2018.11.24 at 10h 48m 00s.xml">
-      <configuration name="CalculatorTest.shouldReturn15WhenAdd5And10" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 13h 12m 51s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.11.24 at 10h 48m 04s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 13h 13m 12s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidatorTest_shouldReturnTrueWhen18 - 2018.11.24 at 11h 27m 48s.xml">
+    <history-entry file="CalculatorTest_shouldThrowExceptionForInvalidNumber - 2018.11.24 at 13h 14m 28s.xml">
+      <configuration name="CalculatorTest.shouldThrowExceptionForInvalidNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidatorTest_shouldReturnTrueWhen18 - 2018.11.24 at 13h 14m 33s.xml">
       <configuration name="ValidatorTest.shouldReturnTrueWhen18" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidatorTest_shouldReturnTrueWhen18 - 2018.11.24 at 11h 28m 00s.xml">
-      <configuration name="ValidatorTest.shouldReturnTrueWhen18" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidatorTest_shouldReturnTrueWhen18 - 2018.11.24 at 11h 28m 09s.xml">
-      <configuration name="ValidatorTest.shouldReturnTrueWhen18" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 13h 14m 37s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4836000" />
+    <option name="totallyTimeSpent" value="10581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32905984" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32905984" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32905984" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
-      <window_info anchor="right" id="Database" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119463086" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Learn" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,6 +403,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TDD.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -416,10 +419,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#58#59#0" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="1657" column="22" selection-start-line="1657" selection-start-column="22" selection-end-line="1657" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
           <folding>
             <element signature="e#340#341#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
@@ -430,20 +451,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#58#59#0" expanded="true" />
-            <element signature="e#86#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -452,6 +462,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
