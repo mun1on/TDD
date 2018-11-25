@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0d26f8a-7f45-4a5c-b777-3ca678aa4d65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ValidatorTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,34 +20,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TDD$PlayOX.ic" NAME="PlayOX Coverage Results" MODIFIED="1543077401278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>gameOX.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TDD$PeselTest.ic" NAME="PeselTest Coverage Results" MODIFIED="1543066136416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pesel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TDD$FizzBuzzTest.ic" NAME="FizzBuzzTest Coverage Results" MODIFIED="1543062216993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="372">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+      <file leaf-file-name="RzymskieNaArabskie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/romeToLatin/RzymskieNaArabskie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="68">
+              <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="method#setMap#0;class#RzymskieNaArabskie#0" />
+                <element signature="method#numberFromUser#0;class#RzymskieNaArabskie#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <file leaf-file-name="Friendships.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/friend/Friendships.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="357">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendshipsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/friend/FriendshipsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,10 +84,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ł</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,14 +101,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Validator.java" />
         <option value="$PROJECT_DIR$/src/test/java/ValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pesel/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pesel/Pesel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pesel/PeselTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameOX/PlayOX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/silnia/Silnia.java" />
+        <option value="$PROJECT_DIR$/src/test/java/silnia/SilniaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/friend/Friendships.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameOX/GameOX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/romeToLatin/RomaNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/romeToLatin/RzymskieNaArabskie.java" />
+        <option value="$PROJECT_DIR$/src/test/java/friend/FriendshipsTest.java" />
       </list>
     </option>
   </component>
@@ -91,8 +140,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="758" />
+    <option name="width" value="1169" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -130,6 +179,14 @@
               <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="friend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -138,6 +195,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="friend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,9 +224,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="friend" />
+      <recent name="silnia" />
+      <recent name="pesel" />
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="calcFizzBuzzValidator" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -180,21 +249,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.shouldReturnCorrectFizzBuzz">
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
+  <component name="RunManager" selected="JUnit.FriendshipsTest">
+    <configuration name="RzymskieNaArabskie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="romeToLatin.RzymskieNaArabskie" />
       <module name="TDD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="romeToLatin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FriendshipsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="friend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="PACKAGE_NAME" value="friend" />
+      <option name="MAIN_CLASS_NAME" value="friend.FriendshipsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -206,13 +287,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.shouldThrowExceptionForInvalidNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FriendshipsTest.shouldReturnEmptyListWithFriends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="friend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionForInvalidNumber" />
+      <option name="PACKAGE_NAME" value="friend" />
+      <option name="MAIN_CLASS_NAME" value="friend.FriendshipsTest" />
+      <option name="METHOD_NAME" value="shouldReturnEmptyListWithFriends" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -223,13 +310,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FriendshipsTest.shouldReturnFriendOfPersonFriend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="friend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="shouldReturnCorrectFizzBuzz" />
+      <option name="PACKAGE_NAME" value="friend" />
+      <option name="MAIN_CLASS_NAME" value="friend.FriendshipsTest" />
+      <option name="METHOD_NAME" value="shouldReturnFriendOfPersonFriend" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -240,13 +333,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ValidatorTest.shouldReturnTrueWhen18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FriendshipsTest.shouldReturnJacek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="friend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidatorTest" />
-      <option name="METHOD_NAME" value="shouldReturnTrueWhen18" />
+      <option name="PACKAGE_NAME" value="friend" />
+      <option name="MAIN_CLASS_NAME" value="friend.FriendshipsTest" />
+      <option name="METHOD_NAME" value="shouldReturnJacek" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -296,19 +395,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.ValidatorTest.shouldReturnTrueWhen18" />
-      <item itemvalue="JUnit.FizzBuzzTest.shouldReturnCorrectFizzBuzz" />
-      <item itemvalue="Application.FizzBuzz" />
-      <item itemvalue="JUnit.CalculatorTest.shouldThrowExceptionForInvalidNumber" />
+      <item itemvalue="JUnit.FriendshipsTest.shouldReturnJacek" />
+      <item itemvalue="JUnit.FriendshipsTest.shouldReturnEmptyListWithFriends" />
+      <item itemvalue="JUnit.FriendshipsTest.shouldReturnFriendOfPersonFriend" />
+      <item itemvalue="Application.RzymskieNaArabskie" />
+      <item itemvalue="JUnit.FriendshipsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest.shouldReturnCorrectFizzBuzz" />
-        <item itemvalue="JUnit.ValidatorTest.shouldReturnTrueWhen18" />
-        <item itemvalue="JUnit.CalculatorTest.shouldThrowExceptionForInvalidNumber" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.FriendshipsTest" />
+        <item itemvalue="JUnit.FriendshipsTest.shouldReturnFriendOfPersonFriend" />
+        <item itemvalue="JUnit.FriendshipsTest.shouldReturnJacek" />
+        <item itemvalue="Application.RzymskieNaArabskie" />
+        <item itemvalue="JUnit.FriendshipsTest.shouldReturnEmptyListWithFriends" />
       </list>
     </recent_temporary>
   </component>
@@ -322,51 +421,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543049493938</updated>
-      <workItem from="1543049498390" duration="10581000" />
+      <workItem from="1543049498390" duration="44244000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 47m 38s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest_shouldReturnFriendOfPersonFriend - 2018.11.25 at 11h 09m 52s.xml">
+      <configuration name="FriendshipsTest.shouldReturnFriendOfPersonFriend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 47m 46s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest - 2018.11.25 at 14h 35m 29s.xml">
+      <configuration name="FriendshipsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 48m 25s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest - 2018.11.25 at 14h 39m 06s.xml">
+      <configuration name="FriendshipsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 52m 42s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest - 2018.11.25 at 14h 39m 21s.xml">
+      <configuration name="FriendshipsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 12h 57m 55s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest - 2018.11.25 at 14h 40m 23s.xml">
+      <configuration name="FriendshipsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 13h 12m 51s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest - 2018.11.25 at 14h 40m 42s.xml">
+      <configuration name="FriendshipsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 13h 13m 12s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest_shouldReturnJacek - 2018.11.25 at 14h 43m 23s.xml">
+      <configuration name="FriendshipsTest.shouldReturnJacek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_shouldThrowExceptionForInvalidNumber - 2018.11.24 at 13h 14m 28s.xml">
-      <configuration name="CalculatorTest.shouldThrowExceptionForInvalidNumber" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest_shouldReturnJacek - 2018.11.25 at 14h 44m 41s.xml">
+      <configuration name="FriendshipsTest.shouldReturnJacek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidatorTest_shouldReturnTrueWhen18 - 2018.11.24 at 13h 14m 33s.xml">
-      <configuration name="ValidatorTest.shouldReturnTrueWhen18" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest_shouldReturnFriendOfPersonFriend - 2018.11.25 at 14h 47m 06s.xml">
+      <configuration name="FriendshipsTest.shouldReturnFriendOfPersonFriend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnCorrectFizzBuzz - 2018.11.24 at 13h 14m 37s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnCorrectFizzBuzz" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest - 2018.11.25 at 14h 47m 12s.xml">
+      <configuration name="FriendshipsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10581000" />
+    <option name="totallyTimeSpent" value="44244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50067115" side_tool="true" weight="0.35612535" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" />
@@ -383,7 +482,8 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.35612535" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119463086" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -405,30 +505,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TDD.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#58#59#0" expanded="true" />
-            <element signature="e#86#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -437,18 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calcFizzBuzzValidator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
@@ -458,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calcFizzBuzzValidator/ValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
@@ -468,19 +539,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="372">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calcFizzBuzzValidator/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pesel/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pesel/Pesel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="112" selection-start-line="38" selection-start-column="112" selection-end-line="38" selection-end-column="112" />
+          <folding>
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pesel/PeselTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/silnia/Silnia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameOX/PlayOX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/silnia/SilniaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameOX/GameOX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#play#0;class#GameOX#0" />
+            <element signature="method#getWinnerMessage#0;class#GameOX#0" />
+            <element signature="method#setOXonBoard#0;class#GameOX#0" />
+            <element signature="method#getActuallBoard#0;class#GameOX#0" />
+            <element signature="method#getInfoPosition#0;class#GameOX#0" />
+            <element signature="method#setStartedBoard#0;class#GameOX#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calcFizzBuzzValidator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calcFizzBuzzValidator/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calcFizzBuzzValidator/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/romeToLatin/RomaNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/romeToLatin/RzymskieNaArabskie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="method#setMap#0;class#RzymskieNaArabskie#0" />
+            <element signature="method#numberFromUser#0;class#RzymskieNaArabskie#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/friend/Friendships.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1.jar!/org/junit/jupiter/api/Disabled.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/friend/FriendshipsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
           </folding>
         </state>
       </provider>

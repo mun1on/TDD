@@ -1,3 +1,5 @@
+package calcFizzBuzzValidator;
+
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 

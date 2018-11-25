@@ -1,3 +1,5 @@
+package calcFizzBuzzValidator;
+
 class Validator {
 
     boolean isAdult(int age){

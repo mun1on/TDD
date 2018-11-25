@@ -1,3 +1,5 @@
+package calcFizzBuzzValidator;
+
 import java.math.BigDecimal;
 
 public class Calculator {
